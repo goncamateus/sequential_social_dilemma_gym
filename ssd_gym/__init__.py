@@ -9,3 +9,8 @@ register(
     id='cleanup-v0',
     entry_point='ssd_gym.envs:CleanUpEnv',
 )
+
+register(
+    id='gathering-v0',
+    entry_point='ssd_gym.envs:GatheringEnv',
+)
